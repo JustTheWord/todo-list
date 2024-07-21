@@ -20,6 +20,10 @@ A microservice approach was used in the project development. The project include
 - [todo-list-email-sender](https://github.com/chauless/todo-list-email-sender)
 - [todo-list-scheduler](https://github.com/chauless/todo-list-scheduler)
 
+and one repository for the deployment of the project:
+
+- [todo-list-iac](https://github.com/JustTheWord/todo-list-iac/tree/main)
+
 **[todo-list-api](https://github.com/chauless/todo-list-api)**
 
 Spring Boot application that implements REST API for working with users and tasks.
@@ -51,6 +55,22 @@ Spring Boot application with two modules - Spring Scheduler and Spring AMQP.
 
 The task of the service is to iterate all users once a day, generate reports for them about the day, and generate emails for sending. The generated emails are sent to the RabbitMQ queue.
 
+**[todo-list-iac](https://github.com/JustTheWord/todo-list-iac/tree/main)**
+
+Deployment with infrastructure as a code approach for a multiuser task scheduler project for Azure Cloud.
+
+Azure Cloud services:
+
+- Azure Kubernetes Service
+- Azure Container Registry
+- Azure Load Balancer
+
+Tools:
+
+- Terraform
+- Azure CLI
+- Kubectl
+
 ### Checklist
 
 | Requirement                                    | State | Description                                                                                                         |
@@ -81,4 +101,4 @@ The task of the service is to iterate all users once a day, generate reports for
 
 ### Deployment and initialization
 
-All deployment information can be found separately [here](https://github.com/JustTheWord/todo-list-iac/tree/main)
+All deployment information can be found separately in [todo-list-iac](https://github.com/JustTheWord/todo-list-iac/tree/main)
