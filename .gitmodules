@@ -1,0 +1,12 @@
+[submodule "todo-list-api"]
+	path = todo-list-api
+	url = https://github.com/chauless/todo-list-api
+[submodule "todo-list-scheduler"]
+	path = todo-list-scheduler
+	url = https://github.com/chauless/todo-scheduler
+[submodule "todo-list-iac"]
+	path = todo-list-iac
+	url = https://github.com/JustTheWord/todo-list-iac
+[submodule "todo-list-email-sender"]
+	path = todo-list-email-sender
+	url = https://github.com/chauless/todo-list-email-sender
